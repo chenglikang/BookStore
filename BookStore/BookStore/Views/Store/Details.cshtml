@@ -1,0 +1,77 @@
+﻿@model BookStore.Models.Books
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<div>
+    <h4>首页</h4>
+    <hr />
+    <div style="float:left;"><img src="@Model.AlbumArtUrl" /></div>
+   <div style="float:left">
+       <div style="margin-left:20px;"><h3>@Html.DisplayFor(model => model.Title)</h3></div>
+       <hr />
+       <dl class="dl-horizontal">
+           <dt>
+               @Html.DisplayNameFor(model => model.Authors.Name)
+           </dt>
+
+           <dd>
+               @Html.DisplayFor(model => model.Authors.Name)
+           </dd>
+
+           <dt>
+               @Html.DisplayNameFor(model => model.Categorys.Name)
+           </dt>
+
+           <dd>
+               @Html.DisplayFor(model => model.Categorys.Name)
+           </dd>
+
+           <dt>
+               @Html.DisplayNameFor(model => model.Title)
+           </dt>
+
+           <dd>
+               @Html.DisplayFor(model => model.Title)
+           </dd>
+
+           <dt>
+               @Html.DisplayNameFor(model => model.Price)
+           </dt>
+
+           <dd>
+               @Html.DisplayFor(model => model.Price)
+           </dd>
+           @using (Html.BeginForm("AddToCart", "ShoppingCart", FormMethod.Get))
+           {
+               <dt>数量</dt>
+               <dd>
+                   <input type="text" id="txt-count" name="count" value="1" />
+               </dd>
+                   <dt>
+                       <input name="id" type="hidden" value="@Model.BookId" />
+                   </dt>
+                   <dd><input type="submit" class="btn btn-primary" value="加入购物车" /></dd>
+           }
+
+       </dl>
+   </div>
+    
+</div>
+<hr style="clear:both;" />
+<div>
+
+</div>
+@section Scripts{
+    <link rel="stylesheet" href="~/Content/jquery.spinner.css" />
+    <script type="text/javascript" src="~/Scripts/jquery.spinner.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#txt-count").spinner();
+        });
+    </script>
+
+    }

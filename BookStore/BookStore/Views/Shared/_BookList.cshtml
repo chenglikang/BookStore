@@ -1,0 +1,31 @@
+﻿@model IEnumerable<BookStore.Models.Books>
+@helper DisplayTitle(string title, int len)
+{
+    if (title.Length <= len)
+    {
+        @title;
+    }
+    else
+    {
+        @title.Substring(0, len)<text>...</text>
+    }
+}
+<div class="row">
+    @foreach (var book in Model)
+    {
+        <a href="@Url.Action("Details","Store",new { id=book.BookId})">
+            <div class="col-md-3">
+                <p>
+                    <img src="@book.AlbumArtUrl" alt="@book.Title" />
+                </p>
+                <p>@DisplayTitle(book.Title,18)</p>
+                <p>@book.Price</p>
+            </div>
+        </a>
+
+    }
+
+</div>
+
+
+
