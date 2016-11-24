@@ -36,6 +36,8 @@
 
         public virtual Categorys Categorys { get; set; }
 
+        public string Details { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Carts> Carts { get; set; }
 

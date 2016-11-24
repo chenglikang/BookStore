@@ -57,12 +57,19 @@
                 <input type="file" id="imageFile" name="imageFile" />
             </div>
         </div>
-
+        <div class="form-group">
+            @Html.LabelFor(model => model.Details, htmlAttributes: new { @class = "control-label col-md-2" })
+            
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Details, new { @class = "text-danger" })
+            </div>
+        </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </div>
+
     </div>
 }
 
@@ -72,4 +79,11 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    <link href="~/Content/summernote.css" rel="stylesheet" />
+    <script src="~/Scripts/summernote.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#Details').summernote();
+        });
+    </script>
 }

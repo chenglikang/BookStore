@@ -53,8 +53,9 @@ namespace BookStore.Controllers
         // 为了防止“过多发布”攻击，请启用要绑定到的特定属性，有关 
         // 详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=317598。
         [HttpPost]
+        [ValidateInput(false)]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "BookId,CategoryId,AuthorId,Title,Price,AlbumArtUrl")] Books albums,
+        public ActionResult Create([Bind(Include = "BookId,CategoryId,AuthorId,Title,Price,AlbumArtUrl,Details")] Books albums,
             HttpPostedFileBase imageFile)
         {
             //Request.Form[""]
