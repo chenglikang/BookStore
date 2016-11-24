@@ -1,6 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "Web.config", Watch = true)]
 [assembly: OwinStartup(typeof(BookStore.Startup))]
 namespace BookStore
 {

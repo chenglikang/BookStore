@@ -1,0 +1,35 @@
+ERROR 2016-11-24 09:08:32,710  3924ms Logger                 Index              - test
+ERROR 2016-11-24 09:08:32,728  3942ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 18
+DEBUG 2016-11-24 09:11:05,492  1017ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:11:05,542  1066ms Logger                 Index              - test
+ERROR 2016-11-24 09:11:05,543  1067ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 19
+DEBUG 2016-11-24 09:14:05,704  1880ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:14:05,776  1952ms Logger                 Index              - test
+ERROR 2016-11-24 09:14:05,777  1953ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 19
+DEBUG 2016-11-24 09:15:28,978   941ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:15:29,027   991ms Logger                 Index              - test
+ERROR 2016-11-24 09:15:29,027   991ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 21
+DEBUG 2016-11-24 09:17:06,398  1812ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:17:06,441  1855ms Logger                 Index              - test
+ERROR 2016-11-24 09:17:06,441  1855ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 21
+DEBUG 2016-11-24 09:23:19,019   649ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:23:19,035   665ms Logger                 Index              - test
+ERROR 2016-11-24 09:23:19,036   666ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 21
+DEBUG 2016-11-24 09:24:27,905 69535ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:24:27,906 69536ms Logger                 Index              - test
+ERROR 2016-11-24 09:24:27,907 69537ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 21
+ERROR 2016-11-24 09:29:39,557   809ms Logger                 Index              - test
+ERROR 2016-11-24 09:29:39,572   824ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 21
+DEBUG 2016-11-24 09:30:39,809   765ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:30:39,825   781ms Logger                 Index              - test
+ERROR 2016-11-24 09:30:39,825   781ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 20
+DEBUG 2016-11-24 09:31:36,390 57346ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:31:36,391 57347ms Logger                 Index              - test
+ERROR 2016-11-24 09:31:36,392 57348ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 20
+DEBUG 2016-11-24 09:33:59,089   770ms Logger                 Index              - 测试
+ERROR 2016-11-24 09:33:59,102   783ms Logger                 Index              - test
+ERROR 2016-11-24 09:33:59,102   783ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 20
+ERROR 2016-11-24 09:41:43,743  2321ms Logger                 Index              - test
+ERROR 2016-11-24 09:41:43,758  2336ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 20
+ERROR 2016-11-24 10:27:16,999  3015ms Logger                 Index              - test
+ERROR 2016-11-24 10:27:17,023  3039ms Logger                 Index              -    在 BookStore.Controllers.HomeController.Index() 位置 C:\Users\alikc\Source\Repos\BookStore\BookStore\BookStore\Controllers\HomeController.cs:行号 19
